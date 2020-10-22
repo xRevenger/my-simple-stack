@@ -34,8 +34,7 @@ public class Item implements ISimpleStack{
     }
 
     @Override
-    public boolean isEmpty() {
-    }
+    public boolean isEmpty()
 
     @Override
     public int getSize() {
