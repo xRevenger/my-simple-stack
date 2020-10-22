@@ -35,7 +35,6 @@ public class Item implements ISimpleStack{
 
     @Override
     public boolean isEmpty() {
-        return (this.vide);
     }
 
     @Override
