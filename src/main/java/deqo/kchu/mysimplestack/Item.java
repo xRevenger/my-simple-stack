@@ -20,25 +20,6 @@ public class Item implements ISimpleStack{
         }
     }
 
-    public int getVal() {
-        return this.valeur;
-    }
-
-    public Item getSuivant() {
-        return this.suivant;
-    }
-
-    public void setSuivant(Item item) {
-        this.vide = false;
-        this.suivant = item;
-    }
-
-    @Override
-    public boolean isEmpty(){
-        return(this.vide);
-    }
-
-    @Override
     public int getSize() {
         Item itCourant = this;
         int i = 0;
